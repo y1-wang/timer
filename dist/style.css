@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ef60a8;
+    background-color: #f9b5ce; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: #ffe6f2; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.timer-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ef8cbd; 
+}
+
+.controls button {
+    background-color: #f57cb9; 
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #ff3385; 
+}
